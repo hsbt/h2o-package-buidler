@@ -1,0 +1,6 @@
+centos7:
+  dockerfile: Dockerfile
+  build: .
+  command: uname -a
+  volumes:
+    - .:/tmp:rw
