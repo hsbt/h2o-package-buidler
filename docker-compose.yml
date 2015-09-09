@@ -1,6 +1,6 @@
 centos7:
   dockerfile: Dockerfile
   build: .
-  command: uname -a
+  command: cp /usr/local/src/h2o/h2o /tmp
   volumes:
     - .:/tmp:rw
